@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">MovieBox</div>
+        <button class="menu-btn">☰ Menu</button>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Series</a></li>
+            <li><a href="#">Anime</a></li>
+            <li><a href="#">Genres</a></li>
+        </ul>
+    </nav>
+        <div class="search-section">
+        <p>Search for the movie you want to download here</p>
+        <form action="https://www.google.com/search" method="get" class="search-box">
+            <input type="text" name="q" placeholder="Search..." required>
+            <button type="submit">Search</button>
+        </form>
+        </div>
+        <div class="container">
+            <!--Main Movie Content (70%)-->
+            <div class="movie-content">
+             <h1 id="movie-title">Iron Man 3 (2013) Download Mp4</h1>
+             <div class="movie-banner">
+                <img id="movie-banner-img" src="https://i.pinimg.com/736x/0b/b1/2c/0bb12cbdf3673531c6d1d4c5a0a11853.jpg" alt="Iron Man 3">
+             </div>
+             <p id="movie-description">Suffering from PTSD, Tony Stark encounters a formidable foe called the Mandarin. When he watches his world fall apart, he must rely on his own instincts as he embarks on a journey of retribution.</p>
+             <div class="movie-info">
+                <p><strong>Genre:</strong> Action, Sci-fi</p>
+                <p><strong>Release Date:</strong> 2013</p>
+                <p><strong>Stars:</strong> Robert Downey Jr., Guy Pearce, Gwyneth Paltrow</p>
+                <p><strong>Runtime:</strong> 2h 10min</p>
+                <p><strong>Language:</strong> English</p>
+                <p><strong>IMBD Rating:</strong> 7.1/10</p>
+             </div>
+             <div class="trailer">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YLorLVa95Xo" frameborder="0" allowfullscreen></iframe>
+             </div>
+             <div class="download-section">
+                <a href="#" class="download-btn">&#x1F4E5 Download</a>
+                <a href="#" class="download-btn">Download Subtitle</a>
+             </div>
+             <div class="comment-section">
+                <h2>Leave Your Reply</h2>
+                <textarea id="commentBox" placeholder="Write your comment here..." rows="4"></textarea>
+                <input type="text" placeholder="Your Name" id="nameBox">
+                <input type="email" id="emailBox" placeholder="Email">
+                <label>
+                    <input type="checkbox" id="saveDetails">Save my details in this browser for the next time I comment.
+                </label>
+                <button id="postComment">Post Comment</button>
+             </div>
+            </div>
+            <!--Recommended Movies (30%)-->
+            <div class="recommended-movies">
+                <h2>You Might Also Like</h2>
+                <div class="movie-grid">
+                    <div class="movie-item">
+                        <img src="https://i.pinimg.com/736x/2a/d0/95/2ad0957bbd22a855c109fd23ba0c70fb.jpg" alt="#">
+                        <h3><a href="yes-man-2008.html">Yes Man (2008)</a></h3>
+                    </div>
+                    <div class="movie-item">
+                        <img src="https://i.pinimg.com/736x/6f/07/0f/6f070f7153a55854d5629dc6fad8ebef.jpg" alt="#">
+                        <h3><a href="grand-jete-2022.html">Grand Jete (2022)</a></h3>
+                    </div>
+                    <div class="movie-item">
+                        <img src="https://i.pinimg.com/736x/d8/b7/84/d8b784b2d5326235a7c6b6e95ca95321.jpg" alt="#">
+                        <h3><a href="eternals-2021.html">Eternals (2021)</a></h3>
+                    </div>
+                    <div class="movie-item">
+                        <img src="https://i.pinimg.com/736x/b0/c8/3a/b0c83afe8f675971286c4f1544bbc544.jpg" alt="#">
+                    <h3><a href="plankton-the-movie-2025.html">Plankton: The Movie (2025)</a></h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-links">
+                <a href="../index.html">Home</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Disclaimer</a>
+                <a href="#">About</a>
+                <p>&copy; 2025 Moviebox.com All rights reserved</p>
+            </div>     
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
